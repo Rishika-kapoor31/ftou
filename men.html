@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Collections</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #1b1b1b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: fixed;
+}
+nav .logo{
+  color: #111;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li button{
+  background-color: #1b1b1b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li button.active,
+nav ul li button:hover{
+  color: #111;
+  background: rgb(190, 182, 197);
+}
+nav .menu-btn i{
+  color: #111;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li button{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li button{
+    margin-left: 0px;
+  }
+  nav ul li button.active,
+  nav ul li button:hover{
+    background: none;
+    color: cyan;
+  }
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+
+
+
+  
+  
+
+
+
+
+/***MEN**************************************************************************/
+
+   #menwear{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+    width:100%;
+    height:56cm;
+    padding-top: 30px;
+   }
+   #womenwear{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+    width:100%;
+    height:56cm;
+    padding-top: 30px;
+   }
+   #kidswear{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+    width:100%;
+    height:56cm;
+    padding-top: 30px;
+   }
+   #gadgets{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+    width:100%;
+    height:56cm;
+    padding-top: 30px;
+   }
+   #accessories{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+    width:100%;
+    height:56cm;
+    padding-top: 30px;
+   }
+
+   .button1{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+    
+    .button2 {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .button2{
+    float: right;
+  }
+
+
+    div.gallery {
+      margin: 75px 50px 0px 50px;
+      /*padding-top: 130px;*/
+      border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      margin-top: 0px;
+      margin-left: 30px;
+      width: 80%;
+      height: 300px;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+      
+    }
+    
+    .responsive {
+      /*background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));*/
+      /*padding: 0 6px;*/
+      margin-left: 35px;
+      float: left;
+      width: 30%;
+    }
+    
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+      #menwear{
+        height:150cm;
+      }
+      #womenwear{
+        height:150cm;
+      }
+      #kidswear{
+        height:150cm;
+      }    
+      #gadgets{
+        height:150cm;
+      }
+      #accessories{
+        height:150cm;
+      }
+    
+    
+      
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+      #menwear{
+        height:170cm;
+      }
+      #womenwear{
+        height:170cm;
+      }
+      #kidswear{
+        height:170cm;
+      }    
+      #gadgets{
+        height:170cm;
+      }
+      #accessories{
+        height:170cm;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+</style>
+
+
+
+<body>
+    <nav>
+        <div class="nav">
+       <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><button onclick="location.href='home.php';" id="mybutton" class="button">Home</button>
+            <li><button onclick="location.href='men.html';" id="mybutton" class="button">Shop for men</button>
+            <li><button onclick="location.href='women.html';" id="mybutton" class="button">Shop for women</button>
+            <li><button onclick="location.href='kids.html';" id="mybutton" class="button">Shop for kids</button>
+            <li><button onclick="location.href='gadgets.html';" id="mybutton" class="button">gadgets</button>
+            <li><button onclick="location.href='home&kitchen.html';" id="mybutton" class="button">Home & Kitchen</button>
+        </ul>
+        </div>
+  </nav>
+    <section id="menwear">
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://images.meesho.com/images/products/18328970/27079_512.jpg" alt="Cinque Terre" >
+            </a>
+            <div class="desc">Shirt</div>
+            <div>Rs.365</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="https://images.meesho.com/images/products/20017733/4cc47_512.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Classy Designer Men Shirts</div>
+            <div>Rs.320</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="https://images.meesho.com/images/products/20736949/102a1_512.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Mens Regular Mehroon T-Shirt</div>
+            <div>Rs.313</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+        </div>
+        </div>
+      
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://images.meesho.com/images/products/18117146/73c3a_512.jpg" alt="Cinque Terre" >
+            </a>
+            <div class="desc">All Day Track Pant</div>
+            <div>Rs.400</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="https://images.meesho.com/images/products/15231800/d5100_512.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">True Knit</div>
+            <div>Rs.420</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="https://images.meesho.com/images/products/4110911/1_512.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Stylish Men's Cotton Blend Track Pants</div>
+            <div>Rs.444</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+        </div>
+        </div>
+      
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://images.meesho.com/images/products/19202819/8f45f_512.jpg" alt="Cinque Terre" >
+            </a>
+            <div class="desc">Couple Watch</div>
+            <div>Rs.270</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+      
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="https://images.meesho.com/images/products/1553711/1_512.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Stylish Leather Wallet</div>
+            <div>Rs.145</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        </div>
+      
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="https://images.meesho.com/images/products/8384879/021bf_512.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Belts</div>
+            <div>Rs.245</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        </div>
+      
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://images.meesho.com/images/products/19994872/e4a28_512.jpg" alt="Cinque Terre" >
+            </a>
+            <div class="desc">Relaxed Graceful Men Sports Shoes</div>
+            <div>Rs.358</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="https://images.meesho.com/images/products/18823523/5a44d_512.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Latest Graceful Men Sport Shoes</div>
+            <div>Rs.450</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="https://images.meesho.com/images/products/15184400/11c2c_512.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Unique Fabulous Men Sports Shoes</div>
+            <div>Rs.530</div>
+            <a href="#" class="button1">Buy Now</a>
+            <a href="#" class="button2">Add to Cart</a>
+        </div>
+        </div>
+      </section>
+</body>
+</html>

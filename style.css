@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=PT+Sans+Narrow:wght@400;700&display=swap');
+input[type=text] {
+	width: 50%;
+	-webkit-transition: width 0.15s ease-in;
+	transition: width 0.15s ease-in;
+}
+input[type=text]:focus {
+	width: 80%;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.button{
+    margin-right: 5px;
+    margin-left:-8px ;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.b1{
+    background-color:rgb(114, 121, 146);
+    
+}
+.b1:hover{
+  background-color: rgb(17, 17, 41);
+  color: white;
+}
+.card-body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: small;
+}
+.links:hover{
+  color: green;
+ text-decoration: none;
+}
+.heading:hover{
+color: red;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+      margin: 0 -5px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card_one {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 10px;
+    border-radius: 5px;
+  
+  }
+  .first{
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: black solid 1px;
+  }
+  .modules a :hover{
+    text-decoration: none;
+  }
+.card{
+
+    height:300px;
+    width: 200px;
+}
+.items{
+  height: 100px;
+  width: 100px;
+}
+@media (min-width: 600px) {
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+    }
+  
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+  
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+  
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+  
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    
+  }
+  .second a :hover{
+      text-decoration: none;
+      color: white;
+  }
+  .second a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    width: 100px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-top: 25px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    margin-top:5px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+  }
+.offer{
+width: fit-content;
+height: 300px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	.md-mb-30
+	{
+		margin-bottom: 30px;
+	}
+    .search{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 766px){
+	.sm-mb-30
+	{
+		margin-bottom: 30px;
+	}
+	.footer-top
+	{
+		padding: 50px 0;
+
+	}
+    .search{
+        width: 100px;
+    }
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.flex-item-left {
+  background-color:rgb(2, 2, 56);
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color:rgb(2, 2, 56);
+  padding: 10px;
+  flex: 50%;
+  color: #f1f1f1;
+  font-family: 'Londrina Solid', cursive;
+  
+}
+.data{
+  margin-top: 20px;
+}
+.animate{
+  
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  0%   { left:0px; top:0px;}
+ 
+  
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.deals{
+  font-family: 'Londrina Solid', cursive;
+  margin-top: 10px;
+  font-size: x-large;
+}
+.footerform{
+  background-color: black;
+  color: white;
+  padding-left: 100px;
+  font-size: 1.2rem;
+}
+
+.footer {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
