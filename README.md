@@ -1,5 +1,5 @@
 # ftou
-FUNCTIONALITIES
+FUNCTIONALITIES TO BE DONE 
 
 1. Homepage: Go to the Amazon website.
 
