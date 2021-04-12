@@ -321,16 +321,14 @@ input[type="checkbox"]{
                 <img src="https://images.meesho.com/images/products/18328970/27079_512.jpg" alt="Cinque Terre" >
             </a>
             <div class="desc">Shirt<br>
-              &#8377; 300<br>
-              <label for="choose">Choose whether used or new :</label>
+              <input type="radio" name="categories" value="new" id="myRadio">New
+<input type="radio" name="categories" value="used" id="myRadio">Used
+<button onclick="myFunction()">Check price</button>
+<p id="demo"></p>
 
-<select name="choose" id="choose">
-  <option value="used">Used</option>
-  <option value="new">New</option>
-</select>
             </div>
             
-            <a href="#" class="button1">Buy Now</a>
+            
             <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -541,5 +539,15 @@ input[type="checkbox"]{
         </div>
         </div>
       </section>
+      <script>
+        function myFunction() {
+          if(document.getElementById("myRadio").value=="New"){
+          document.getElementById("demo").innerHTML ="Rs.220";
+          }
+          else{
+            document.getElementById("demo").innerHTML = "Rs. 200";
+          }
+        }
+        </script>
 </body>
 </html>
