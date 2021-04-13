@@ -20,7 +20,7 @@
 } 
 nav{
   display: flex;
-  height: 80px;
+  height: 60px;
   width: 100%;
   background: #1b1b1b;
   align-items: center;
@@ -46,7 +46,7 @@ nav ul li button{
   background-color: #1b1b1b;
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 500;
   padding: 8px 15px;
   border-radius: 5px;
@@ -56,7 +56,7 @@ nav ul li button{
 nav ul li button.active,
 nav ul li button:hover{
   color: #111;
-  background: rgb(190, 182, 197);
+  background: rgb(252, 249, 255);
 }
 nav .menu-btn i{
   color: #111;
@@ -138,38 +138,16 @@ input[type="checkbox"]{
 
 
 
-/***MEN**************************************************************************/
+/***GADGETS**************************************************************************/
 
-   #menwear{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #womenwear{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #kidswear{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #gadgets{
+   
+   #gadget{
     background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
     width:100%;
     height:45cm;
-    padding-top: 30px;
+    padding-top: 20px;
    }
-   #accessories{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
+   
 
    .button1{
     background-color: black; 
@@ -189,7 +167,7 @@ input[type="checkbox"]{
     background-color: black; 
     border: none;
     color: white;
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -204,8 +182,8 @@ input[type="checkbox"]{
 
 
     div.gallery {
+      padding-bottom: 40px;
       margin: 75px 50px 0px 50px;
-      /*padding-top: 130px;*/
       border: 1px solid #ccc;
     }
     
@@ -231,8 +209,6 @@ input[type="checkbox"]{
     }
     
     .responsive {
-      /*background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));*/
-      /*padding: 0 6px;*/
       margin-left: 35px;
       float: left;
       width: 30%;
@@ -244,43 +220,17 @@ input[type="checkbox"]{
         width: 49.99999%;
         margin: 6px 0;
       }
-      #menwear{
-        height:150cm;
-      }
-      #womenwear{
-        height:150cm;
-      }
-      #kidswear{
-        height:150cm;
-      }    
-      #gadgets{
-        height:150cm;
-      }
-      #accessories{
-        height:150cm;
-      }
-    
-    
-      
+          
+      #gadget{
+        height:75cm;
+      }   
     }
     
     @media only screen and (max-width: 500px) {
       .responsive {
         width: 100%;
-      }
-      #menwear{
-        height:170cm;
-      }
-      #womenwear{
-        height:170cm;
-      }
-      #kidswear{
-        height:170cm;
-      }    
-      #gadgets{
-        height:130cm;
-      }
-      #homekitchen{
+      }   
+      #gadget{
         height:130cm;
       }
     }
@@ -315,51 +265,54 @@ input[type="checkbox"]{
             </ul>
         </div>
   </nav>
-    <section id="gadgets">
+    <section id="gadget">
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
-                <img src="https://images.meesho.com/images/products/13889403/03ed2_512.jpg" alt="Cinque Terre" >
+                <img src="https://images.meesho.com/images/products/13889403/03ed2_512.jpg" alt="Cinque Terre" wigth="600" height="400">
             </a>
-            <div class="desc">mobile Charger</div>
-            <div>Rs.40</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets">Mobile Charger<br>
+              <input type="radio" name="categories"  id="new">New
+<input type="radio" name="categories"  id="used">Used
+<p id="demo"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_forest.jpg">
               <img src="https://images.meesho.com/images/products/12987986/5fd83_512.jpg" alt="Forest" width="600" height="400">
             </a>
-            <div class="desc">Mobile Holder</div>
-            <div>Rs.140</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets1">Mobile Holder<br>
+              <input type="radio" name="categories"  id="new1">New
+<input type="radio" name="categories"  id="used1">Used
+<p id="demo1"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_lights.jpg">
               <img src="https://images.meesho.com/images/products/20172105/682ad_512.jpg" alt="Northern Lights" width="600" height="400">
             </a>
-            <div class="desc">Fancy Cool Product</div>
-            <div>Rs.270</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets2">Fancy Cool Product<br>
+              <input type="radio" name="categories"  id="new2">New
+<input type="radio" name="categories"  id="used2">Used
+<p id="demo2"><br></p>
           <a href="#" class="button2">Add to Cart</a>
+        </div>
         </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/20260485/ce239_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Mobile Holders</div>
-            <div>Rs.100</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets3">Mobile Holders<br>
+              <input type="radio" name="categories"  id="new3">New
+<input type="radio" name="categories"  id="used3">Used
+<p id="demo3"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -367,12 +320,12 @@ input[type="checkbox"]{
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/20327793/09ea0_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Smart Watch</div>
-            <div>Rs.1184</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets4">Smart Watch<br>
+              <input type="radio" name="categories"  id="new4">New
+<input type="radio" name="categories"  id="used4">Used
+<p id="demo4"><br></p> 
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -380,12 +333,12 @@ input[type="checkbox"]{
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/21953697/2ea25_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Waterproof Watch</div>
-            <div>Rs.535</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets5">Waterproof Watch<br>
+              <input type="radio" name="categories"  id="new5">New
+<input type="radio" name="categories"  id="used5">Used
+<p id="demo5"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -393,12 +346,12 @@ input[type="checkbox"]{
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/6558131/4bd18_512.jpg" alt="Cinque Terre" width="600" height="400">
-            </a>
-            <div class="desc">Stylish Smart Watches</div>
-            <div>Rs.160</div>
-            <a href="#" class="button1">Buy Now</a>
+          </a>
+            <div class="desc" id="gadgets6">Stylish Smart Watches<br>
+              <input type="radio" name="categories"  id="new6">New
+<input type="radio" name="categories"  id="used6">Used
+<p id="demo6"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -406,12 +359,12 @@ input[type="checkbox"]{
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/16351059/cebb3_512.jpg" alt="Cinque Terre" width="600" height="400">  
             </a>
-            <div class="desc">Fancy Cool Product</div>
-            <div>Rs.280</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets7">Fancy Cool Product<br>
+              <input type="radio" name="categories"  id="new7">New
+<input type="radio" name="categories"  id="used7">Used
+<p id="demo7"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -419,17 +372,163 @@ input[type="checkbox"]{
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
               <img src="https://images.meesho.com/images/products/16351257/0e886_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Mobile Holder</div>
-            <div>Rs.270</div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="gadgets8">Mobile Holder<br>
+              <input type="radio" name="categories"  id="new8">New
+<input type="radio" name="categories"  id="used8">Used
+<p id="demo8"><br></p>
           <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
         </div>
+  </section>
 
-        </section>
+  <script>
+    let result= document.getElementById("demo");
+        let element=document.getElementById("gadgets");
+         element.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new":
+               price="<b>New</b> price is" + "<b> Rs.40</b>";
+               break;
+            case "used":
+               price="<b>Used</b> price is" + "<b> Rs.30</b>";
+               break;
+          }
+          result.innerHTML=price;
+        });
+
+        let result1= document.getElementById("demo1");
+        let element1=document.getElementById("gadgets1");
+         element1.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new1":
+               price="<b>New</b> price is" + "<b> Rs.140</b>";
+               break;
+            case "used1":
+               price="<b>Used</b> price is" + "<b> Rs.110</b>";
+               break;
+          }
+          result1.innerHTML=price;
+        });
+
+        let result2= document.getElementById("demo2");
+        let element2=document.getElementById("gadgets2");
+         element2.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new2":
+               price="<b>New</b> price is" + "<b> Rs.270</b>";
+               break;
+            case "used2":
+               price="<b>Used</b> price is" + "<b> Rs.230</b>";
+               break;
+          }
+          result2.innerHTML=price;
+        });
+
+        let result3= document.getElementById("demo3");
+        let element3=document.getElementById("gadgets3");
+         element3.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new3":
+               price="<b>New</b> price is" + "<b> Rs.100</b>";
+               break;
+            case "used3":
+               price="<b>Used</b> price is" + "<b> Rs.80</b>";
+               break;
+          }
+          result3.innerHTML=price;
+        });
+
+        let result4= document.getElementById("demo4");
+        let element4=document.getElementById("gadgets4");
+         element4.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new4":
+               price="<b>New</b> price is" + "<b> Rs.1184</b>";
+               break;
+            case "used4":
+               price="<b>Used</b> price is" + "<b> Rs.1100</b>";
+               break;
+          }
+          result4.innerHTML=price;
+        });
+
+        let result5= document.getElementById("demo5");
+        let element5=document.getElementById("gadgets5");
+         element5.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new5":
+               price="<b>New</b> price is" + "<b> Rs.535</b>";
+               break;
+            case "used5":
+               price="<b>Used</b> price is" + "<b> Rs.490</b>";
+               break;
+          }
+          result5.innerHTML=price;
+        });
+
+        let result6= document.getElementById("demo6");
+        let element6=document.getElementById("gadgets6");
+         element6.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new6":
+               price="<b>New</b> price is" + "<b> Rs.160</b>";
+               break;
+            case "used6":
+               price="<b>Used</b> price is" + "<b> Rs.130</b>";
+               break;
+          }
+          result6.innerHTML=price;
+        });
+
+        let result7= document.getElementById("demo7");
+        let element7=document.getElementById("gadgets7");
+         element7.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new7":
+               price="<b>New</b> price is" + "<b> Rs.280</b>";
+               break;
+            case "used7":
+               price="<b>Used</b> price is" + "<b> Rs.240</b>";
+               break;
+          }
+          result7.innerHTML=price;
+        });
+
+        let result8= document.getElementById("demo8");
+        let element8=document.getElementById("gadgets8");
+         element8.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new8":
+               price="<b>New</b> price is" + "<b> Rs.270</b>";
+               break;
+            case "used8":
+               price="<b>Used</b> price is" + "<b> Rs.240</b>";
+               break;
+          }
+          result8.innerHTML=price;
+        });
+
+  </script>
 </body>
 </html>

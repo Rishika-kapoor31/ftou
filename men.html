@@ -17,7 +17,7 @@
 } 
 nav{
   display: flex;
-  height: 80px;
+  height: 60px;
   width: 100%;
   background: #1b1b1b;
   align-items: center;
@@ -43,7 +43,7 @@ nav ul li button{
   background-color: #1b1b1b;
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 500;
   padding: 8px 15px;
   border-radius: 5px;
@@ -53,7 +53,7 @@ nav ul li button{
 nav ul li button.active,
 nav ul li button:hover{
   color: #111;
-  background: rgb(190, 182, 197);
+  background: rgb(238, 238, 238);
 }
 nav .menu-btn i{
   color: #111;
@@ -141,33 +141,10 @@ input[type="checkbox"]{
    #menwear{
     background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
     width:100%;
-    height:60cm;
-    padding-top: 30px;
+    height:62cm;
+    padding-top: 20px;  
    }
-   #womenwear{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #kidswear{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #gadgets{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
-   #accessories{
-    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
-    width:100%;
-    height:56cm;
-    padding-top: 30px;
-   }
+   
    .button{
      cursor: pointer;
    }
@@ -191,7 +168,7 @@ input[type="checkbox"]{
     background-color: black; 
     border: none;
     color: white;
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -206,9 +183,10 @@ input[type="checkbox"]{
 
 
     div.gallery {
-      margin: 75px 50px 0px 50px;
-      /*padding-top: 130px;*/
+      padding-bottom: 40px;
+      margin: 75px 50px 50px 50px;
       border: 1px solid #ccc;
+      
     }
     
     div.gallery:hover {
@@ -220,6 +198,7 @@ input[type="checkbox"]{
       margin-left: 30px;
       width: 80%;
       height: 300px;
+     
     }
     
     div.desc {
@@ -233,8 +212,6 @@ input[type="checkbox"]{
     }
     
     .responsive {
-      /*background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));*/
-      /*padding: 0 6px;*/
       margin-left: 35px;
       float: left;
       width: 30%;
@@ -247,20 +224,9 @@ input[type="checkbox"]{
         margin: 6px 0;
       }
       #menwear{
-        height:150cm;
+        height:115cm;
       }
-      #womenwear{
-        height:150cm;
-      }
-      #kidswear{
-        height:150cm;
-      }    
-      #gadgets{
-        height:150cm;
-      }
-      #accessories{
-        height:150cm;
-      }
+     
     
     
       
@@ -271,20 +237,9 @@ input[type="checkbox"]{
         width: 100%;
       }
       #menwear{
-        height:170cm;
+        height:190cm;
       }
-      #womenwear{
-        height:170cm;
-      }
-      #kidswear{
-        height:170cm;
-      }    
-      #gadgets{
-        height:170cm;
-      }
-      #accessories{
-        height:170cm;
-      }
+      
     }
     
     .clearfix:after {
@@ -293,6 +248,7 @@ input[type="checkbox"]{
       clear: both;
     }
     
+
     
 </style>
 
@@ -300,167 +256,125 @@ input[type="checkbox"]{
 
 <body>
     <nav>
-        <div class="nav">
-       <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </label>
+      <div class="nav">
+        <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+           <i class="fas fa-bars"></i>
+         </label>
+       
         <ul>
             <li><button onclick="location.href='home.php';" id="mybutton" class="button">Home</button>
-            
             <li><button onclick="location.href='women.html';" id="mybutton" class="button" >Shop for Women</button>
             <li><button onclick="location.href='kids.html';" id="mybutton" class="button">Shop for Kids</button>
             <li><button  onclick="location.href='gadgets.html';" id="mybutton" class="button">Gadgets</button>
             </ul>
         </div>
+
+        
   </nav>
+
+
+
     <section id="menwear">
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
                 <img src="https://images.meesho.com/images/products/18328970/27079_512.jpg" alt="Cinque Terre" >
             </a>
-            <div class="desc">Shirt<br>
-              <input type="radio" name="categories" value="new" id="myRadio">New
-<input type="radio" name="categories" value="used" id="myRadio">Used
-<button onclick="myFunction()">Check price</button>
+            <div class="desc" id="shirt">Shirt<br>
+              <input type="radio" name="categories"  id="new">New
+<input type="radio" name="categories"  id="used">Used
 <p id="demo"></p>
-
-            </div>
-            
-            
             <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/20017733/4cc47_512.jpg" alt="Forest" width="600" height="400">
             </a>
-            <div class="desc">Classy Designer Men Shirts<br>
-            &#8377; 320<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select>
-          </div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt1">Classy Designer Men Shirts<br>
+              <input type="radio" name="categories"  id="new1">New
+<input type="radio" name="categories"  id="used1">Used
+<p id="demo1"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#"">
               <img src="https://images.meesho.com/images/products/20736949/102a1_512.jpg" alt="Northern Lights" width="600" height="400">
             </a>
-            <div class="desc">Mens Regular Mehroon T-Shirt<br>
-            &#8377; 313
-            <br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt2">Mens Regular Mehroon T-Shirt<br>
+              <input type="radio" name="categories"  id="new2">New
+<input type="radio" name="categories"  id="used2">Used
+<p id="demo2"><br></p>
             <a href="#" class="button2">Add to Cart</a>
+        </div>
         </div>
         </div>
       
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
                 <img src="https://images.meesho.com/images/products/18117146/73c3a_512.jpg" alt="Cinque Terre" >
             </a>
-            <div class="desc">All Day Track Pant<br>
-            &#8377; 400
-            <br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select>
+            <div class="desc" id="shirt3">All Day Track Pant<br>
+              <input type="radio" name="categories"  id="new3">New
+<input type="radio" name="categories"  id="used3">Used
+<p id="demo3"><br></p>
+             <a href="#" class="button2">Add to Cart</a>
           </div>
-            <a href="#" class="button1">Buy Now</a>
-            <a href="#" class="button2">Add to Cart</a>
-          </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/15231800/d5100_512.jpg" alt="Forest" width="600" height="400">
             </a>
-            <div class="desc">True Knit<br>
-            &#8377; 420
-            <br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select>
+            <div class="desc" id="shirt4">True Knit<br>
+              <input type="radio" name="categories"  id="new4">New
+<input type="radio" name="categories"  id="used4">Used
+<p id="demo4"><br></p>
+           <a href="#" class="button2">Add to Cart</a>
           </div>
-            <a href="#" class="button1">Buy Now</a>
-            <a href="#" class="button2">Add to Cart</a>
-          </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/4110911/1_512.jpg" alt="Northern Lights" width="600" height="400">
             </a>
-            <div class="desc">Stylish Men's Cotton Blend Track Pants<br>
-            &#8377; 444<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt5">Stylish Men's Cotton Blend Track Pants<br>
+              <input type="radio" name="categories"  id="new5">New
+<input type="radio" name="categories"  id="used5">Used
+<p id="demo5"><br></p>
             <a href="#" class="button2">Add to Cart</a>
+        </div>
         </div>
         </div>
       
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
                 <img src="https://images.meesho.com/images/products/19202819/8f45f_512.jpg" alt="Cinque Terre" >
             </a>
-            <div class="desc">Couple Watch<br>
-            &#8377; 270<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt6">Couple Watch<br>
+              <input type="radio" name="categories"  id="new6">New
+<input type="radio" name="categories"  id="used6">Used
+<p id="demo6"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
       
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/1553711/1_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Stylish Leather Wallet<br>
-            &#8377; 145<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt7">Stylish Leather Wallet<br>
+              <input type="radio" name="categories"  id="new7">New
+<input type="radio" name="categories"  id="used7">Used
+<p id="demo7"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -468,18 +382,12 @@ input[type="checkbox"]{
       
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/8384879/021bf_512.jpg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc">Belts<br>
-            &#8377; 245<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt8">Belts<br>
+              <input type="radio" name="categories"  id="new8">New
+<input type="radio" name="categories"  id="used8">Used
+<p id="demo8"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
         </div>
@@ -487,67 +395,249 @@ input[type="checkbox"]{
       
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
                 <img src="https://images.meesho.com/images/products/19994872/e4a28_512.jpg" alt="Cinque Terre" >
             </a>
-            <div class="desc">Relaxed Graceful Men Sports Shoes<br>
-            &#8377; 358<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt9">Relaxed Graceful Men Sports Shoes<br>
+              <input type="radio" name="categories"  id="new9">New
+<input type="radio" name="categories"  id="used9">Used
+<p id="demo9"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/18823523/5a44d_512.jpg" alt="Forest" width="600" height="400">
             </a>
-            <div class="desc">Latest Graceful Men Sport Shoes<br>
-            &#8377; 450<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt10">Latest Graceful Men Sport Shoes<br>
+              <input type="radio" name="categories"  id="new10">New
+<input type="radio" name="categories"  id="used10">Used
+<p id="demo10"><br></p>
             <a href="#" class="button2">Add to Cart</a>
           </div>
+        </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="#">
               <img src="https://images.meesho.com/images/products/15184400/11c2c_512.jpg" alt="Northern Lights" width="600" height="400">
             </a>
-            <div class="desc">Unique Fabulous Men Sports Shoes<br>
-            &#8377; 530<br>
-            <label for="choose">Choose whether used or new :</label>
-
-            <select name="choose" id="choose">
-              <option value="used">Used</option>
-              <option value="new">New</option>
-            </select></div>
-            <a href="#" class="button1">Buy Now</a>
+            <div class="desc" id="shirt11">Unique Fabulous Men Sports Shoes<br>
+              <input type="radio" name="categories"  id="new11">New
+<input type="radio" name="categories"  id="used11">Used
+<p id="demo11"><br></p>
             <a href="#" class="button2">Add to Cart</a>
+        </div>
         </div>
         </div>
       </section>
-      <script>
-        function myFunction() {
-          if(document.getElementById("myRadio").value=="New"){
-          document.getElementById("demo").innerHTML ="Rs.220";
+
+<script>
+        let result= document.getElementById("demo");
+        let element=document.getElementById("shirt");
+         element.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new":
+               price="<b>New</b> price is" + "<b> Rs.220</b>";
+               break;
+            case "used":
+               price="<b>Used</b> price is" + "<b> Rs.200</b>";
+               break;
           }
-          else{
-            document.getElementById("demo").innerHTML = "Rs. 200";
+          result.innerHTML=price;
+        });
+
+
+        let result1= document.getElementById("demo1");
+        let element1=document.getElementById("shirt1");
+         element1.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new1":
+               price="<b>New</b> price is" + "<b> Rs.320</b>";
+               break;
+            case "used1":
+               price="<b>Used</b> price is" + "<b> Rs.300</b>";
+               break;
           }
-        }
-        </script>
+          result1.innerHTML=price;
+        });
+
+
+        let result2= document.getElementById("demo2");
+        let element2=document.getElementById("shirt2");
+         element2.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new2":
+               price="<b>New</b> price is" + "<b> Rs.313</b>";
+               break;
+            case "used2":
+               price="<b>Used</b> price is" + "<b> Rs.290</b>";
+               break;
+          }
+          result2.innerHTML=price;
+        });
+
+
+
+        let result3= document.getElementById("demo3");
+        let element3=document.getElementById("shirt3");
+         element3.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new3":
+               price="<b>New</b> price is" + "<b> Rs.400</b>";
+               break;
+            case "used3":
+               price="<b>Used</b> price is" + "<b> Rs.375</b>";
+               break;
+          }
+          result3.innerHTML=price;
+        });
+
+
+        let result4= document.getElementById("demo4");
+        let element4=document.getElementById("shirt4");
+         element4.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new4":
+               price="<b>New</b> price is" + "<b> Rs.420</b>";
+               break;
+            case "used4":
+               price="<b>Used</b> price is" + "<b> Rs.380</b>";
+               break;
+          }
+          result4.innerHTML=price;
+        });
+
+
+        let result5= document.getElementById("demo5");
+        let element5=document.getElementById("shirt5");
+         element5.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new5":
+               price="<b>New</b> price is" + "<b> Rs.444</b>";
+               break;
+            case "used5":
+               price="<b>Used</b> price is" + "<b> Rs.400</b>";
+               break;
+          }
+          result5.innerHTML=price;
+        });
+
+
+        let result6= document.getElementById("demo6");
+        let element6=document.getElementById("shirt6");
+         element6.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new6":
+               price="<b>New</b> price is" + "<b> Rs.270</b>";
+               break;
+            case "used6":
+               price="<b>Used</b> price is" + "<b> Rs.220</b>";
+               break;
+          }
+          result6.innerHTML=price;
+        });
+
+
+        let result7= document.getElementById("demo7");
+        let element7=document.getElementById("shirt7");
+         element7.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new7":
+               price="<b>New</b> price is" + "<b> Rs.145</b>";
+               break;
+            case "used7":
+               price="<b>Used</b> price is" + "<b> Rs.100</b>";
+               break;
+          }
+          result7.innerHTML=price;
+        });
+
+
+        let result8= document.getElementById("demo8");
+        let element8=document.getElementById("shirt8");
+         element8.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new8":
+               price="<b>New</b> price is" + "<b> Rs.245</b>";
+               break;
+            case "used8":
+               price="<b>Used</b> price is" + "<b> Rs.200</b>";
+               break;
+          }
+          result8.innerHTML=price;
+        });
+
+
+        let result9= document.getElementById("demo9");
+        let element9=document.getElementById("shirt9");
+         element9.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new9":
+               price="<b>New</b> price is" + "<b> Rs.358</b>";
+               break;
+            case "used9":
+               price="<b>Used</b> price is" + "<b> Rs.320</b>";
+               break;
+          }
+          result9.innerHTML=price;
+        });
+
+
+        let result10= document.getElementById("demo10");
+        let element10=document.getElementById("shirt10");
+         element10.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new10":
+               price="<b>New</b> price is" + "<b> Rs.450</b>";
+               break;
+            case "used10":
+               price="<b>Used</b> price is" + "<b> Rs.400</b>";
+               break;
+          }
+          result10.innerHTML=price;
+        });
+
+
+        let result11= document.getElementById("demo11");
+        let element11=document.getElementById("shirt11");
+         element11.addEventListener('change',function(e) {
+           let target=e.target;
+           let price;
+           switch(target.id){
+            case "new11":
+               price="<b>New</b> price is" + "<b> Rs.530</b>";
+               break;
+            case "used11":
+               price="<b>Used</b> price is" + "<b> Rs.490</b>";
+               break;
+          }
+          result11.innerHTML=price;
+        });
+
+ </script>
 </body>
 </html>
