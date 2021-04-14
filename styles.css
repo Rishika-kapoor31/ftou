@@ -52,7 +52,7 @@ body {
 }
 
 .table_wrap {
-  width: 1000px;
+  width: 1200px;
   margin: 50px auto 0;
 }
 
@@ -65,12 +65,14 @@ body {
 }
 
 .table_wrap ul li .item .name,
-.table_wrap ul li .item .phone {
-  width: 20%;
+.table_wrap ul li .item .phone ,
+.table_wrap ul li .item .open{
+  width: 40%;
   padding: 0 15px;
 }
 
-.table_wrap ul li .item .status {
+.table_wrap ul li .item .status,
+.table_wrap ul li .item .open {
   width: 15%;
   padding: 0 15px;
 }

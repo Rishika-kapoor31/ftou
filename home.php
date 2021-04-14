@@ -201,6 +201,7 @@ footer{
     .footer-distributed .footer-right{
       display: block;
       width: 100%;
+      margin-top:200px;
       margin-bottom: 40px;
       text-align: center;
     }
@@ -222,7 +223,7 @@ footer{
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link nav1" id="home"href="index.html">Home</a>
+              <a class="nav-link nav1" id="home"href="home.php">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav1 " href="aboutus.html">About us</a>
@@ -249,7 +250,7 @@ footer{
           <a href="women.html">Shop for Women</a>
           <a href="kids.html">Shop for Kids</a>
           <a href="gadgets.html">Gadgets</a>
-          <a href="coupons.html">Accessories</a>
+      
         </div>
         <div id="main">
           <span style="font-size:20px;cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
