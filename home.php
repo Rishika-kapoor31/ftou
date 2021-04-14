@@ -234,7 +234,7 @@ footer{
 
          </ul>
       
-          <button onclick="location.href='search.html'" class="button"><span class="fa fa-search fa-lg"></span></button>
+          <button onclick="location.href='searchbar.html'" class="button"><span class="fa fa-search fa-lg"></span></button>
         
 
           <a class="navbar-brand" href="#">
