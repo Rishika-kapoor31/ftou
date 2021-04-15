@@ -237,9 +237,7 @@ footer{
           <button onclick="location.href='searchbar.html'" class="button"><span class="fa fa-search fa-lg"></span></button>
         
 
-          <a class="navbar-brand" href="#">
-          <img src="https://p.kindpng.com/picc/s/714-7147174_png-file-svg-transparent-background-shopping-cart-icon.png" width="30" height="30" class="d-inline-block align-top" alt="cart">
-          </a>
+          
        </div>
       </nav>
       <nav class="navbar navbar-expand-lg " style="background-color:rgb(5, 3, 90)">
