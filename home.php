@@ -244,10 +244,10 @@ footer{
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="search.html">Today's Deals</a>
-          <a href="men.html">Shop for Men</a>
-          <a href="women.html">Shop for Women</a>
-          <a href="kids.html">Shop for Kids</a>
-          <a href="gadgets.html">Gadgets</a>
+          <a href="store.html">Shop for Men</a>
+          <a href="store.html">Shop for Women</a>
+          <a href="store.html">Shop for Kids</a>
+          <a href="store.html">Gadgets</a>
       
         </div>
         <div id="main">
@@ -259,16 +259,16 @@ footer{
               <a class="nav-link second" href="deals.html">Today's Deals</a>
             </li>
           <li class=" nav-item">
-            <a class="nav-link second" href="men.html">Shop for Men</a>
+            <a class="nav-link second" href="store.html">Shop for Men</a>
           </li>
           <li class=" nav-item">
-            <a class="nav-link second" href="women.html">Shop for Women</a>
+            <a class="nav-link second" href="store.html">Shop for Women</a>
           </li>
           <li class=" nav-item">
-            <a class="nav-link second" href="kids.html">Shop for Kids</a>
+            <a class="nav-link second" href="store.html">Shop for Kids</a>
           </li>
           <li class=" nav-item">
-            <a class="nav-link second" href="gadgets.html">Gadgets</a>
+            <a class="nav-link second" href="store.html">Gadgets</a>
           </li>
           
   </ul>
