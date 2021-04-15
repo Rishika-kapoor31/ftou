@@ -21,20 +21,25 @@ html, body {
     min-height: 100%;
 }
 
-.nav ul {
+/*.nav ul {
     margin: 0;
-}
+}*/
 
+.nav{
+    background-color: rgb(80, 167, 173);
+    padding-bottom: 10px;
+   
+}
 .nav li {
-    display: inline;
+    display: inline;   
 }
 
-.nav a {
+/*.nav a {
     display: inline-block;
     padding: .5em;
     color: white;
     text-decoration: none;
-}
+}*/
 
 .main-nav {
     text-align: center;
@@ -343,3 +348,50 @@ h3{
     text-align: center;
     
 }
+
+
+
+
+
+
+
+
+
+   
+
+   .button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+   
+    font-size: 16px;
+    margin-top:0px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .section-header{
+    background-image: linear-gradient(rgb(221, 159, 159), rgb(240, 238, 238));
+  }
+  #men{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+  }
+  #women{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+  }
+  #kids{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+  }
+  #gadgets{
+    background-image: linear-gradient(rgb(193, 213, 233), rgb(193, 157, 201));
+  }
+  
+  
+  
+  
+    
+    
