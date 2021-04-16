@@ -24,7 +24,7 @@ mysqli_select_db($con,'ftou');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css/">
-    <script src="index.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <script src="js/bootstrap.min.js/"></script>
@@ -323,7 +323,7 @@ footer{
                 <div class="card-body">
     <p><b>Buy exclusive formal wear for men 
       Ford Pastel-green shirt</b></p>
-      <p><a href="men.html" class="links">Explore more--></a></p>
+      <p><a href="store.html" class="links">Explore more--></a></p>
         
                 </div>
               </div>
@@ -334,7 +334,7 @@ footer{
                   <div class="card-body">
                    <p><b>Ethnic wear 
                       KISAH Men Green & White Solid Sherwani Set</b></p>
-                    <p><a href="men.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -343,7 +343,7 @@ footer{
                   <img class="card-img-top img-fluid"style="height: 200px; width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSohkSUA2AIzs5YrQ9D0ceqsIXT4PVtMYgdNXXIGj0CqKJ3YCSQc7qpX1PpOKUbUkKNJVHFE0qy&usqp=CAc" alt="women formal">
                   <div class="card-body">
                   <p> <b> Formal wear for Women Green Double Button Blazer</b></p>
-                      <p><a href="women.html" class="links">Explore more--></a></p>
+                      <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -352,7 +352,7 @@ footer{
                   <img class="card-img-top img-fluid"style="height: 200px; width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEloCi01HVzY32E9OdIiX9kb3V35Kfg9LaBgTY2OCGwUz9ShgGnctCIFpGaA&usqp=CAc" alt="women ethnic">
                   <div class="card-body">
                    <p> <b>Women ethnic wear Rose Dawn Sharara Set</b></p>
-                    <p><a href="women.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -361,7 +361,7 @@ footer{
                   <img class="card-img-top img-fluid"style="height: 200px; width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7MD6hnqF6B5cX90zz1Jp-e7_SOXpUylKOj9ykB1P8fBAImtgV2FHr_-mWshapnjQ7udDe5uC&usqp=CAc" alt="kidswear">
                   <div class="card-body">
                  <p>  <b>Kids Special Peach Embellished Dress</b></p>
-                    <p><a href="kids.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -370,7 +370,7 @@ footer{
                   <img class="card-img-top img-fluid"style="height: 200px; width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZOeGYVt1Zz2NO0gGtqB7QYT9LXqyK3rTziuwCeIU-V0rt74uAvehPUI5QkiZS0FddhC8ie1_&usqp=CAc" alt="kidswear">
                   <div class="card-body">
                   <p>  <b>Kidswear Abhla Work Top And Lehenga</b></p>
-                    <p><a href="kids.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -379,7 +379,7 @@ footer{
                   <img class="card-img-top img-fluid"style="height: 200px; width: 300px;" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRaaHUydbMWMG0vHRySrLfh6f91GOrVFwH6dfs1dzXpJ42yphz8-YMM17mH6JShtOxT7nGVNX2apaASG1jJjpFpiE8cxTwD8AE&usqp=CAc" alt="gadgets">
                   <div class="card-body">
                   <p><b>Enjoy the new BOAT Airdopes 131 - Wireless Earbuds</b></p>  
-                    <p><a href="gadgets.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -388,7 +388,7 @@ footer{
                   <img class="card-img-top img-fluid" style="height: 200px; width: 300px;"src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRBuH6czheu2CLF2gtg-ENC_in4LFf_3MbmTFeGbp5Ngpa4zfD6O5Wt47VWhuqJLFTGZUOn_sTaa3ALpRC5ZhnWQuZrCzAIIYGv&usqp=CAc" alt="gadgets">
                   <div class="card-body">
                    <p> <b>OnePlus Nord, 256 GB, 12 GB RAM, Gray Onyx, Smartphone</b></p>
-                    <p><a href="gadgets.html" class="links">Explore more--></a></p>
+                    <p><a href="store.html" class="links">Explore more--></a></p>
                   </div>
                 </div>
               </div>
@@ -461,8 +461,61 @@ We can compare various models / brands.
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+<script> 
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("main").style.marginLeft = "200px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "MistyRose";
+  }
+  $(document).ready(function() {
+    $("#myCarousel").on("slide.bs.carousel", function(e) {
+      var $e = $(e.relatedTarget);
+      var idx = $e.index();
+      var itemsPerSlide = 3;
+      var totalItems = $(".carousel-item").length;
+  
+      if (idx >= totalItems - (itemsPerSlide - 1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i = 0; i < it; i++) {
+          // append slides to end
+          if (e.direction == "left") {
+            $(".carousel-item")
+              .eq(i)
+              .appendTo(".carousel-inner");
+          } else {
+            $(".carousel-item")
+              .eq(0)
+              .appendTo($(this).find(".carousel-inner"));
+          }
+        }
+      }
+    });
+  });
+  function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+  }
+  </script>
+    </body>
+
 </html>
 
 
